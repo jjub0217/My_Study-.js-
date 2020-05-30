@@ -26,5 +26,6 @@ superheros.forEach(function (hero) {
 superheros.forEach(hero => {
     console.log(hero);
 });
+// 매개변수 hero를 사용하여 화살표 함수를 만든 코드이다. 
 
 // 배열 안에 있는 요소들을 가지고 어떤 작업을 일괄적으로 하려면 forEach문을 사용하면 된다. 
