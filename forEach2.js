@@ -5,11 +5,11 @@ const superheros = [
     'Doctor_strange'
 ]
 
-// function print(hero) {
-//     console.log(hero);
-// }
+function print(hero) {
+    console.log(hero);
+}
 
-// superheros.forEach(print);
+superheros.forEach(print);
 
 // Iron_man Captain_america Thor Doctor_strange
 
@@ -19,8 +19,11 @@ const superheros = [
 
 superheros.forEach(function (hero) {
     console.log(hero);
-}); // 함수 이름이 없는 함수를 forEach 문 안에 만들면 된다. 
+}); 
+// 함수 이름이 없는 함수를 forEach 문 안에 만들면 된다. 
+
 // Iron_man Captain_america Thor Doctor_strange
+
 // 원래 코딩했던 코드보다 깔끔하게 만든 코드가 위 코드인데, 이것보다 더 깔끔하게 만들수 있다. 아래 코드처럼.
 
 superheros.forEach(hero => {
