@@ -6,8 +6,9 @@ console.log(value);
 
 // 배열의 앞쪽의 요소가 배열에서 빠져나와서 shift 를 통해서 value 안으로 들어가지게 된다. 
 // 그래서 shift 를 통해서 기존의 배열을 수정하게 된다. 
+// 꼭 변수에 할당을 해줘야 한다.
 
-console.log(numbers);
+// console.log(numbers);
 // [20, 30, 40]
 
 // shift 를 통해서 value에 10을 할당함으로써 기존 배열의 numbers 에서 10은 빠지게 된다. 
@@ -17,4 +18,4 @@ console.log(numbers);
 
 // shift는 맨 앞에 있는 요소 하나씩 바닥 날때까지 밖으로 꺼내는 걸 의미한다. 
 // shift는 맨 먼저 들어간 요소부터 빠져나오기 때문에 자료구조에서는 '큐'로 구현할 수 있다.
-
+// shift() <- 괄호는 원래 비워 놓는것이다.
