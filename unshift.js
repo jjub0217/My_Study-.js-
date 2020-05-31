@@ -2,7 +2,7 @@ const numbers = [10, 20, 30, 40];
 
 numbers.unshift(5);
 console.log(numbers);
-// [5, 10, 20, 30, 40]
+// [ 5, 10, 20, 30, 40 ]
 
 // 원본 배열의 요소들의 맨 앞에 unshift를 통해 새로운 요소가 추가된다. 
 // 그래서 unshift 를 통해서 기존의 배열을 수정하게 된다. 
