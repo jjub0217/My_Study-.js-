@@ -5,7 +5,7 @@
 ////// 제거하려는 해당 요소가 몇번째 인지 명시해준 경우
 const numbers = [10, 20, 30, 40];
 const index = numbers.indexOf(30); // numbers 라는 배열의 요소값 '30' 인덱스를 찾아라
-console.log(index); // 그 인덱스가 몇번째 인덱스냐?
+console.log(index); // 그 인덱스가 몇번째 인덱스냐? 
 // 2 
 
 const spliced = numbers.splice(index, 2); // numbers 라는 배열에서 위에서 말한 그 인덱스부터 2개의 요소를 제거할거야.
