@@ -85,6 +85,7 @@ function compare(key) {
 // 이것을 보고 sort 를 쓰면 오름차순의 순서가 계산된다. 
 
 todos.sort(compare('id')); // todos 라는 배열의 요소들 중에 id라는 프로퍼티를 기준으로 오름차순으로 정렬해라.
+// 비교함수를 쓴 배열을 sort 해라
 console.log(todos);
 // [ { id: 1, content: 'HTML' }, { id: 2, content: 'CSS' }, { id: 4, content: 'Javascript' } ]
 
