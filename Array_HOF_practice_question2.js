@@ -8,10 +8,24 @@ const todos = [
     { id: 1, content: 'Javascript', completed: false }
   ];
   
-  function getValues(key) {
+// const ids = todos.map(todo => todo.id);
+// console.log(ids);
+
+function getValues(key) {
   
-  }
+  return todos.map(todo => todo[key]); // map 고차함수를 함수 몸체 안에서 쓸때는 반드시 return 이 있어야 한다.
+  // 객체 안에 있는 프로퍼티에 접근하고 싶으면 대괄호를 사용하여 해당 프로퍼티에 접근해야 한다.
+}
+console.log(getValues('id'));
+console.log(getValues('content'));
+console.log(getValues('completed'));
+
+
+  // function getValues(key) {
+  // }
+  // console.log();
   
-  console.log(getValues('id')); // [3, 2, 1]
-  console.log(getValues('content')); // ['HTML', 'CSS', 'Javascript']
-  console.log(getValues('completed')); // [false, true, false]
+  
+  // console.log(getValues('id')); // [3, 2, 1]
+  // console.log(getValues('content')); // ['HTML', 'CSS', 'Javascript']
+  // console.log(getValues('completed')); // [false, true, false]
