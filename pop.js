@@ -9,7 +9,7 @@ console.log(value);
 // 꼭 변수에 할당을 해줘야 한다. 
 
 // console.log(numbers);
-// [10, 20, 30]
+// [ 10, 20, 30 ]
 
 // pop 를 통해서 value에 40을 할당함으로써 기존 배열의 numbers 에서 40은 빠지게 된다. 
 // 위쪽에 pop를 쓴 부분에 numbers.pop(); 을 여러번 하면 뒤에서부터 빠지게 되는거니까
