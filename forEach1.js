@@ -10,6 +10,9 @@ const superheros = [
 for (let i = 0; i < superheros.length ; i++){
     console.log(superheros[i]);
 }
+// for문은 증감식이 있기때문에, 위 코드에서는 인덱스를 1씩 증가시켜 반복시키는 
+// for문을 사용하였기 때문에 인덱스 i가 필요한 것이다. 
+
 
 // 위에 for문을 배열 고차함수를 사용해보자. 그래서 for문을 돌리는 대신에 
 // 특정 함수를 사용해서 똑같은 작업을 해보자.
@@ -23,6 +26,9 @@ console.log(hero);
 
 superheros.forEach(print); // 여기에 인수(파라미터)에 위에 만든 함수이름을 넣는다.
 // for문 돌린것과 같은 의미의 코드다. 
+// 위 코드의 forEach 같은 경우는 증감식이 없기때문에 인덱스가 필요없다.
+// 그렇기 때문에 인덱스가 필요없고, 배열의 요소를 의미하는 단어만이 필요할 뿐이다.
+
 
 function print() {
     console.log("Hello");
