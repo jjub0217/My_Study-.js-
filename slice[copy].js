@@ -6,7 +6,9 @@
 
 const numbers = [ 10, 20, 30, 40];
 
-const sliced = numbers.slice(0, 2);
+const sliced = numbers.slice(0, 2); // 0번째 인덱스부터 2개의 요소를 복사한다.
 console.log(sliced);
+// [ 10, 20 ]
 console.log(numbers);
+// [ 10, 20, 30, 40 ]
 
