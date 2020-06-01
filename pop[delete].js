@@ -1,10 +1,11 @@
 // pop은 맨 뒤에서부터 요소 하나씩 바닥 날때까지 밖으로 꺼내는 걸 의미한다. 
 // pop() <- 괄호는 원래 비워 놓는것이다.
+// pop은 배열의 마지막 요소부터 밖으로 꺼내지는 것이다.
 // 원본 배열을 수정한다.
 
 const numbers = [10, 20, 30, 40];
 
-const value = numbers.pop(2);
+const value = numbers.pop();
 console.log(value);
 // 40
 
