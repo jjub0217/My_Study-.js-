@@ -23,3 +23,4 @@ const items = [{
 // map 안에 넣어줄수도 있다. 
 const texts = items.map(item => item.text);
 console.log(texts);
+// [ 'hello', 'bye' ]
