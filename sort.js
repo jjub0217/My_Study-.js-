@@ -1,31 +1,31 @@
 // 배열의 요소를 정렬한다.
-// 원본 배열을 변경하며 정렬된 배열을 반환한다.
 // 기본적으로 오름차순으로 정렬한다.
+// 원본 배열을 변경하며 정렬된 배열을 반환한다.
 
-// const fruits = [ 'banana', 'orange', 'apple'];
+const fruits = [ 'banana', 'orange', 'apple'];
 
-// fruits.sort();
-// console.log(fruits);
+fruits.sort();
+console.log(fruits);
 
 // [ 'apple', 'banana', 'orange' ]
 
 // 위 코드는 fruits 라는 배열을 오름차순으로 정렬한 코드이다.
 // 알파벳 순 오름차순으로 정렬되어있다.
 
-// const fruits = [ 'banana', 'orange', 'apple'];
-// const result = fruits.sort();
-// console.log(result);
+const fruits = [ 'banana', 'orange', 'apple'];
+const result = fruits.sort();
+console.log(result);
 
 // [ 'apple', 'banana', 'orange' ]
 
 // 기본적으로는 오름차순 정렬이지만 내림차순 정렬으로도 할수 있다.
 // 내림차순으로 정렬하려면 일단 먼저 오름차순으로 정렬 후 -> reverse 메소드를 사용해서 역순 시켜야 한다.
 
-// const fruits = [ 'banana', 'orange', 'apple'];
+const fruits = [ 'banana', 'orange', 'apple'];
 
-// fruits.sort();
-// fruits.reverse();
-// console.log(fruits);
+fruits.sort();
+fruits.reverse();
+console.log(fruits);
 
 // [ 'orange', 'banana', 'apple' ]
 
@@ -65,11 +65,11 @@ const todos = [
 ];
 
 
-// function compare(key) {
-//     return function (a, b) {
-//         return (a[key] > b[key] ? 1 : (a[key] < b[key] ? -1 : 0))
-//     }
-// }
+function compare(key) {
+    return function (a, b) {
+        return (a[key] > b[key] ? 1 : (a[key] < b[key] ? -1 : 0))
+    }
+}
 // 원래는 아래 코드같은 화살표 표현식으로 나타낼수 있는데, 내가 헷갈려서 함수 표현식으로 위 코드처럼 나타냈다.
  
 function compare(key) {
