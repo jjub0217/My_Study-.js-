@@ -1,0 +1,1 @@
+![reduce1](https://user-images.githubusercontent.com/62126380/83531623-32561a80-a528-11ea-884b-8efe88e58991.PNG) 
