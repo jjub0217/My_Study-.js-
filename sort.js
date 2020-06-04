@@ -71,6 +71,7 @@ function compare(key) {
     }
 }
 // 원래는 아래 코드같은 화살표 표현식으로 나타낼수 있는데, 내가 헷갈려서 함수 표현식으로 위 코드처럼 나타냈다.
+// 숫자를 비교할때는 비교함수를 써야 한다.
  
 function compare(key) {
     return (a, b) => (a[key] > b[key] ? 1 : (a[key] < b[key] ? -1 : 0));
