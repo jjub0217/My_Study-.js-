@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var today = new Date(); // 지금 날짜 가져옴
+        console.log(today);
+        
+        var month = today.getMonth() + 1;
+        console.log(month);
+        
+        var monthName;
+
+        switch (month) { // case문 뒤에 오는 표현식과 case 뒤에 오는 표현식이 일치한다면 case 뒤에 문을 실행해라
+            case 1:
+                // 여기서 case 뒤에 쓰인 것은 월을 나타낸다.
+                monthName = '1월';
+                break;
+            case 2:
+                monthName = '2월';
+                break;
+            case 3:
+                monthName = '3월';
+                break;
+            case 4:
+                monthName = '4월';
+                break;
+            case 5:
+                monthName = '5월';
+                break;
+            case 6:
+                monthName = '6월';
+                break;
+            case 7:
+                monthName = '7월';
+                break;
+            case 8:
+                monthName = '8월';
+                break;
+            case 9:
+                monthName = '9월';
+                break;
+            case 10:
+                monthName = '10월';
+                break;
+            case 11:
+                monthName = '11월';
+                break;
+            case 12:
+                monthName = '12월';
+                break;
+                default: monthName = 'Invalid month';
+        }
+        // console.log(monthName);
+        document.write(monthName);
+    </script>
+</body>
+
+</html>
