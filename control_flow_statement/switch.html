@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>세션 선택</title>
+    <link rel="stylesheet" href="switch.css">
+</head>
+
+<body>
+    <script>
+        var session = prompt("관심 세션을 선택해 주세요. 1-마케팅, 2-개발, 3-디자인", "1");
+        switch (session)
+        // 위switch 의 괄호에 쓰인 session은 표현식이다.
+        {
+            case '1': // 표현식으로 쓰인 session이 case 뒤에 온 표현식과 일치하면 콜론 뒤의 문이 실행된다. 
+                // 프롬프트창에 입력되는 값은 숫자가 아니라 문자열이기 때문에 case 문 뒤에 오는 프롬프트 창의 값을 나타내는 것은 문자열로 나타내야 한다.
+                document.write('<p>마케팅 세션은 <strong>201호</strong>에서 진행됩니다.</p>');
+                break;
+            case '2': // 표현식으로 쓰인 session이 case 뒤에 온 표현식과 일치하면 콜론 뒤의 문이 실행된다. 
+                document.write('<p>개발 세션은 <strong>203호</strong>에서 진행됩니다.</p>');
+                break;
+            case '3': // 표현식으로 쓰인 session이 case 뒤에 온 표현식과 일치하면 콜론 뒤의 문이 실행된다. 
+                document.write('<p>디자인 세션은 <strong>205호</strong>에서 진행됩니다.</p>');
+                break;
+            default:
+                alert('잘못 입력했습니다');
+        }
+
+    </script>
+</body>
+
+</html>
