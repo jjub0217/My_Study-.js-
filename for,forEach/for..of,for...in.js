@@ -1,20 +1,20 @@
 // 배열을 다루게 될때 사용되는 반복문이다. 
 // 배열 안에 있는 것을 사용해서 어떠한 작업을 하게 될때 사용한다. 
 
-// const numbers = [10, 20, 30, 40, 50];
+const numbers = [10, 20, 30, 40, 50];
 
-// for(let i = 0; i < numbers.length; i++) {
-//     console.log(numbers[i]);
-// }
+for(let i = 0; i < numbers.length; i++) {
+    console.log(numbers[i]);
+}
 
 // // // 10 20 30 40 50
 
 
 // // 위의 for문을 대체해서 for... of 문을 아래처럼 나타낼수도 있다.
 
-// for (let number of numbers){
-//     console.log(number);
-// }
+for (let number of numbers){
+    console.log(number);
+}
 
 // // 10 20 30 40 50 
 
