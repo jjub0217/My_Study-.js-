@@ -1,4 +1,5 @@
-// function addNumber(a, b) { // <- 이 줄에서 말하는 a 와 b 는 함수를 실행할때 "필요하다고" "미리" "지정"한 값이다. 
+// function addNumber(a, b) { // 매개변수 : <- 이 줄에서 말하는 a 와 b 는 
+                             //함수를 실행할때 "필요하다고" "미리" "지정"한 값이다. 
 //     let sum = a + b;
 //     console.log(sum);
 // }
