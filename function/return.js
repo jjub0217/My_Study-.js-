@@ -10,6 +10,17 @@ function addNumber(a, b) {
                 // 다른곳에 표시 해야 할때 함수의 결과값을 return해서 사용한다. 
 }
 
+ // 반환문(return문) :
+ /* 1. 함수를 종료시키는 역할을 한다. 
+        - 함수를 종료시키는 역할을 하기 때문에 함수 내부의 가장 끝에 위치해야 한다. 
+        - return 문 뒤에 같은 코드블럭 내에서 다른 작업을 하거나 또 return 을 해도 무시된다.
+        ex) */
+        function add(x, y){
+            return x + y;
+            console.log(add(1, 2)); // <- 해당 콘솔로그 문은 무시된다. 
+        }
+        console.log(add(1, 2)); // 3
+
 
 
 
