@@ -21,6 +21,13 @@ function addNumber(a, b) {
         }
         console.log(add(1, 2)); // 3
 
+//    2. 함수 내부에서 return 을 안한채로 결과값을 도출해내려고 하면 undefined가 도출된다.
+        function addNumber(x, y){
+            x + y;
+        }
+        console.log(addNumber(1, 2)); // undefined
+        
+
 
 
 
