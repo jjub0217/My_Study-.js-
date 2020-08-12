@@ -14,3 +14,18 @@ function print({a, b}){
     console.log(b); // 2
 }
 print(object); 
+
+////////////////////////////////////////////////
+
+const nick = ['이쁜이', '애기', '이쁘니', '세지니'];
+const boyFriend = {
+    name : '오세진',
+    age : 33,
+    nickName : nick
+}
+
+function love({name, age, nickName}){
+    const text = `${name}(${age})씨는 별명으로 ${nickName} 등을 갖고 있습니다.`
+    console.log(text); 
+}
+love(boyFriend); // 오세진(33)씨는 별명으로 이쁜이,애기,이쁘니,세지니 등을 갖고 있습니다.
