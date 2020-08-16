@@ -6,14 +6,24 @@ const object = {
     b: 2
 }
 
-const {a, b} = object; // <- a 랑 b 값을 밖으로 꺼내주기 위함
+const {a, b} = object; //<- 여기서 우변에는 객체이어야 한다.  <- a 랑 b 값을 밖으로 꺼내주기 위함
+// 할당 기준은 프로퍼티 키여야 한다. 
+// 이때 { } 안에 들어가는 변수 와, 프로퍼티 키가 일치하여야 한다. 
+// object 라는 객체가 할당이 되는데, 할당된 object 라는 객체에서 
+// a랑 b 라는 프로퍼티 키들의 값들이 추출되서
+// a 와 b 에 할당이 된다. 
+
+console.log(a); // 1
+console.log(b); // 2
 
 
 function print({a, b}){
     console.log(a); // 1
     console.log(b); // 2
 }
-print(object); 
+print(object); // object 라는 객체가 인수에 들어가서 
+// 파라미터로 전달 되는데, 전달되면서 object 라는 객체의 
+// 결국 a 와 b 라는 프로퍼티들의 값들이 파라미터로 전달이 된다.
 
 ////////////////////////////////////////////////
 

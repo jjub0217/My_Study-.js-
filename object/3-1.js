@@ -9,7 +9,10 @@ const ironMan = {
 
 const { name } = ironMan;
 // ironMan 이라는 객체를..... 어디다 할당한거지?
-
+// └> 해결: { name } 여기에서 name 은 변수이며, const { name } 까지는 변수를 선언한것이다.
+//          이때 변수를 객체 리터럴 형태로 선언해야 한다.
+//          그리고 객체를 할당한다.  
+//          이때 프로퍼티 키가 기준이 되며, 선언한 변수와 객체의 프로퍼티 키와 같아야 한다.
 
 console.log(name); // 토니 스타크
 console.log(ironMan.name); // 토니 스타크
