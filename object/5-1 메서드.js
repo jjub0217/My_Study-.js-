@@ -18,9 +18,9 @@ const boyFriend = {
     }
 }
 
-console.log(boyFriend.nickName);
-boyFriend.say();
-boyFriend.hisCompany();
+console.log(boyFriend.nickName); // [ '이쁜이', '애기', '이쁘니', '세지니' ]
+boyFriend.say(); // 뿅! 잘잤능가
+boyFriend.hisCompany(); // 세지니는 꼭 굿닥에서 스타일쉐어로 이직 성공할거야!
 
 
 
